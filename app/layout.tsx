@@ -1,10 +1,12 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
+import { Toaster } from '@/components/ui/sonner'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'PinBoard — Discover and save ideas',
+  description:
+    'PinBoard is where you find inspiration, save ideas you love, and share what moves you.',
   generator: 'v0.app',
   icons: {
     icon: [
